@@ -28,6 +28,6 @@ npm run generate
 mvn clean install
 ```
 
-6. Update the policies and style system code to your liking.
+6. Update the policies and style system code to your liking. Further documentation can be found at [@ez-aem/policies](https://www.npmjs.com/package/@ez-aem/policies).
 
 7. Integrate into your existing Maven project by updating the parent pom information in the pom.xml file. And add the maven submodule to your parent pom's build `<modules>` section.
