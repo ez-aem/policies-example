@@ -14,7 +14,7 @@ cd /src/policies
 npx degit github:ez-aem/policies-example
 ```
 
-3. Find and Replace PROJECTNAME with your project's name. This will also need to be done on folders, so make sure it's a name that Maven will accept.
+3. Find and Replace PROJECTNAME with your project's name. This will also need to be done on the `./src/main/content/jcr_content/conf/PROJECTNAME` folder, so make sure it's a name that Maven will accept.
 
 4. Install the npm depenencies.
     

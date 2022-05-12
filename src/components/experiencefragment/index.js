@@ -36,4 +36,17 @@ module.exports = [
 
     attributes: {},
   }),
+  new ComponentPolicy({
+    component: "cq/experience-fragments/components/xfpage",
+    description: "Default Policy for Experience Fragment Component",
+    policy: "policy_default",
+    title: "Default Experience Fragment Policy",
+    styles: require("./styles"),
+
+    attributes: {
+      clientlibs: [
+        "PROJECTNAME.site"
+      ],
+    },
+  }),
 ]; 
